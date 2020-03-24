@@ -71,6 +71,9 @@ public class FindTask extends AbctractTask implements FindFilesTask {
                 }
             });
 
+
+
+
             for (File f : result) {
                 out.println(f.getAbsolutePath());
             }
